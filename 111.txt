@@ -23,3 +23,8 @@ ssh-keygen -t rsa -C "youremail@example.com"此，命令创建私钥和公钥
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+11.创建分支并切换到分支：git checkout -b dev
+git brance查看分支正常提交后切换到master分支git checkout master
+合并分支git merge dev , git merge命令用于合并指定分支到当前分支
+合并完成后可以删除分支git branch -d dev，
+12.使用git log --graph查看分支合并图
